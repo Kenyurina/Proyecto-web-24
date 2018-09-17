@@ -1,0 +1,101 @@
+body { overflow-x:hidden; /*font-family: 'Open Sans', sans-serif; */font-family: 'Open Sans Condensed', sans-serif;}
+
+/*COLORES DE LA PLANTILLA*/
+
+.dark_primary_color{background-color:#f7f7f7!important;  /* FONDO GRIS CLARO*/}
+.dark_secondary_color{background-color:#ffffff!important;  /* FONDO GRIS CLARO*/}
+.dark_button_color{background-color:#4196e0!important;  /* FONDO AZUL CLARO*/}
+.primary_color{background-color:#1e2d3b!important;  /* FONDO AZUL OSCURO */}
+.light_primary_color{background-color:#edcd20!important; /* FONDO  MOSTAZA  */}
+.text_icons{color:#3D5975!important; /* COLOR AZUL OSCURO*/}
+.secondary_text{color:#9e9c9c!important;  /* COLOR GRIS OSCURO */}
+.secondary_text-a {color:#f7f7f7!important;  /* COLOR GRIS CLARO */}
+.divider_color{color:#ffffff!important; /* COLOR BLANCO */}
+.divider_color-a { color: #3D5975; /*COLOR GRIS */}
+
+/*ESTILOS TITULO SECCIONES*/
+
+.titulo{ display:flex; flex-direction:row; justify-content:center; }
+.seccion { border-bottom: 10px solid rgba(237, 205, 31, 1); margin:40px; padding-top: 60px;}
+
+/*ESTILOS DE LA CABECERA*/
+/*MENU*/
+
+.logo{ text-align:center; padding-top:18px; }
+.navbar { border-radius:0px; height:80px; margin-bottom:0px; }
+.navbar-toggle {position:relative; float:right; padding:9px 10px;margin-right:15px; margin-bottom:8px; border-radius:0px; /*border:3px solid #ffffff;*/}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color:transparent;}
+.navbar-default {border-color:#1e2d3b;}
+.navbar-default .navbar-toggle {border-color:#1e2d3b;}
+.navbar-default .navbar-collapse {border-color:#1e2d3b;}
+.navbar-header a img{ width:60px; height:20px; margin:20px; }
+.dropdown-menu{ padding:0px; margin:50px;}
+.dropdown-menu>li>a {padding: 20px 20px;}
+.cont {clear: both; float: right; ;width: 70%;}
+.nav>li>a {padding:30px 30px 15px;}
+#menu {float:left; left:50%; list-style-type:none; margin:0 auto; padding:0.5px; position:relative;}
+#menu li a {font-size:15px; color:#f2f2f2;}
+#menu .alin {position:relative; right:50%;}
+
+/* FUNCION MENU PEGAJOSO*/
+
+#sticky { overflow:hidden; }
+.sticky { position: fixed; top: 0; width: 100% }
+  
+/*ESTILOS SERVICIOS*/
+
+.parallax { background-image: url(../img/entrepreneur-593358_1920.jpg); min-height: 500px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.thumbnail {border: 1px solid transparent; }
+.content_f { display:flex; align-items:center; padding:50px 0px 50px;}
+.content_g .col-md-4  { width:300px; }
+.content_g h3 {font-size:30px;line-height:20px; font-weight:bold;}
+.content_g p {font-size:15px; line-height:20px; }
+.content img {opacity: 0.7; /*height:227px; width: 300px;*/}
+.content h3 { font-size:15px;line-height:20px; font-weight:bold; text-align:center;}
+.content p { font-size:12px; line-height:20px; text-align:center;}
+h2 { margin-left: 20px; font-weight:bold; }
+
+/*ESTILOS NOSOTROS*/
+
+.parallax-a { background-image: url(../img/workplace-1245776_1920.jpg); min-height: 500px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+/*ESTILOS BARRA*/
+
+.barra { display:flex; flex-direction:row; justify-content:center; padding:30px; }
+.barra h2 { font-size:70px; text-align:center;}
+.barra p { font-size:20px; font-weight:bold;  text-align:center;}
+.barra-bor { border-right: 10px solid #ffffff; }
+.borde-r { border-right:1px solid #ffffff;/* padding-right:70px;*/ }
+
+/*ESTILOS PROYECTOS*/
+
+.proyectos { display:flex; flex-direction:row; justify-content:center; padding:30px;}
+
+/*ESTILOS CONTACTENOS*/
+
+input[type=text], select, textarea {width:250px; padding:5px; border:0px solid ; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
+input[type=submit] {padding:10px 20px;border: none;cursor: pointer; }
+input[type=submit]:hover {background-color: #0d1c3d; }
+.column { float:right; width:50%;margin-top:6px; padding:0px;}
+.column h2 { margin-left:3px; width:200px; }
+.contacto-a h2 { margin-left:3px; }
+.contacto-a p { width:200px; }
+.contacto-b { display:flex; flex-direction:row; justify-content:center; padding:30px;}
+.row:after {display:table; clear:both;}
+@media screen and (max-width: 600px) {.column, input[type=submit]{/*width:100%;*/ width:250px; margin-top: 0;}}
+.cintillo{ padding:10px; font-size:18px; text-align:center;}
+.cintillo a { text-decoration:none; font-size:20px; }
+.cintillo small img { width:20px; height:20px; }
+
+/*ESTILOS PROYECTO-1*/
+
+.btn-primary {border-color: transparent;}
+.btn-primary a { text-decoration:none; }
+.carousel .item img { width:450px; } 
+
+/*ESTILOS EFECTO SCROLL*/
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { color: #555; background-color:transparent; }
+
+
+
